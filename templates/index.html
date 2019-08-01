@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Used Car price Estimator</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    </head>
+    <body>
+
+	<header>
+		<div class="container">
+                <div id="branding">
+                        <h1><span class="highlight">Get your Car Price </span> Predictor</h1>
+                    </div>
+	    </div>
+    </header>
+    
+    <div id ="main">
+        <div class = "container">
+            <div class="column1">
+                <img src="../static/images/index.jpg" width="450" height ="350" style="float: left; margin-right: 5px;margin-bottom: 5px"/>
+                
+            </div>
+
+    
+            <form action="/predict" method="POST" class="quote">
+                
+
+                <aside id = "sidebar">
+                    <div class="dark">
+                        <h3> Car Details</h3>
+                            <div>
+                                <label> Mileage</label> <br>
+                                <input name="mileage" type ="number" placeholder="38069"> 
+
+                            </div>
+                            <br>
+                            <div>
+                                 
+                                <label>Model Year</label><br>
+                                <input name="my" type="number" placeholder="1999-2017...">
+
+                            </div>
+                         
+                            <br>
+                            <div>
+                                <label>Brand</label>
+                                     <select name = "origin">
+                                        <option value ="Ford">Ford Focus</option>
+                                        <option value = "Honda CRV">Honda Accord CRV</option>
+                                        <option value = "Toyota Corolla">Toyota Corolla</option>
+
+                                    </select>
+                            </div>
+                            <br>
+                            
+                            <input type = "submit" class="button_1" value = "Predict">
+
+                    </div>
+                
+                </aside>
+
+            </form>
+
+            </div>
+        </div>
+        
+        <footer>
+                <p> Nidhi, Copyright &copy; 2019</p>
+            </footer>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+</head>
+<body>
+
+
+		<header>
+                <div class="container">
+                        <div id="branding">
+                                <h1><span class="highlight">Used Car Price </span>Estimator</h1>
+                            </div>
+                </div>
+         </header>
+
+     <div id ="main">
+
+    
+            <div class="container">
+               
+                <div class="fieldset">
+
+                    <img src="../static/images/index2.jpg" width="350" height ="250" style="float: left; margin-right: 10px;margin-bottom: 5px; margin-top: 5px"/>
+              
+                </div>
+                <div class="sidebar">
+                   <h2>Estimated Car Price  </h2>
+                   <h1>$<font color= "red"><span class="highlight">{{ "%0.2f" | format(output )}}</span></font></h1>
+
+                   <p> The car price prediction is considering models of LE,EX,S,EX-L,LX,L,CE,SES,SEL,ST,XLE,XRS and 
+                       other Sedans and new listings from years 1999 to 2017</p>
+                </div>
+            </div>
+
+    </div>
+	
+	<footer>
+            <p> Nidhi, Copyright &copy; 2019</p>
+        </footer>
+
+</body>
+
