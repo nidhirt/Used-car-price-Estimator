@@ -1,3 +1,6 @@
+Please refer to the detailed presentation providing an overview of the project here : https://drive.google.com/file/d/1F4ccu2axM3Rts1w_kZslleOGXCYaXWfr/view?usp=sharing
+
+
 # Used Car Price Prediction
 ## Background:
 
@@ -22,4 +25,9 @@ Kaggle.com :https://www.kaggle.com/zacharie/hofotocarvalues#Toyota%20Corolla_042
  storing it in pickel file
  * Templates : HTML files
 
+Screen shots of the Predictor in action -
+
+![alt text](https://github.com/nidhirt/Used-car-price-Estimator/blob/master/static/images/Screen%20Shot%202019-08-01%20at%203.32.59%20PM.png)
+
+![alt text](https://github.com/nidhirt/Used-car-price-Estimator/blob/master/static/images/Screen%20Shot%202019-08-01%20at%203.22.31%20PM.png)
 
